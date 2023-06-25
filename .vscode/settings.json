@@ -33,6 +33,7 @@
   "npm.packageManager": "yarn",
   // Extension: cSpell
   "cSpell.words": [
+    "Abugida",
     "Customizer"
   ],
   "search-node-modules.path": "typescript-version/full-version/node_modules",
