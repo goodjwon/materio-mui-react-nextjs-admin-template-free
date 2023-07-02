@@ -12,7 +12,7 @@ import GoogleCirclesExtended from 'mdi-material-ui/GoogleCirclesExtended'
 
 // ** Type import
 import { VerticalNavItemsType } from 'src/@core/layouts/types'
-import { CashMultiple } from 'mdi-material-ui'
+import { BookAccount, Calendar, CashMultiple, OfficeBuilding } from 'mdi-material-ui'
 
 const navigation = (): VerticalNavItemsType => {
   return [
@@ -22,10 +22,11 @@ const navigation = (): VerticalNavItemsType => {
       path: '/'
     },
     {
-      title: 'Season 관리하기',
-      icon: AccountCogOutline,
+      title: 'Resort 관리하기',
+      icon: OfficeBuilding,
       path: '/account-settings'
     },
+
     {
       title: 'Room Fee 관리하기',
       icon: CashMultiple,
@@ -33,21 +34,16 @@ const navigation = (): VerticalNavItemsType => {
     },
     {
       title: 'Season 관리하기',
-      icon: AccountCogOutline,
+      icon: Calendar,
       path: '/account-settings'
     },
     {
-      title: 'Room Request 관리하기',
-      icon: AccountCogOutline,
+      title: '예약신청 관리하기',
+      icon: BookAccount,
       path: '/account-settings'
     },
     {
-      title: 'Room Reserve 관리하기',
-      icon: AccountCogOutline,
-      path: '/account-settings'
-    },
-    {
-      title: 'Room Reserve 관리하기',
+      title: '예약 관리하기',
       icon: AccountCogOutline,
       path: '/account-settings'
     },
